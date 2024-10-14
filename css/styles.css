@@ -1,0 +1,104 @@
+/* General */
+* {
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+}
+
+html, body {
+    height: 100%; /* Altura completa */
+    margin: 0; /* Elimina márgenes por defecto */
+    font-family: 'Cinzel', serif; /* Tipografía acorde con Dark Souls */
+    color: #ffffff; /* Color de texto blanco */
+    background-color: #333333; /* Fondo gris oscuro */
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    padding: 20px; /* Relleno */
+    text-align: center; /* Alineación central */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina viñetas */
+    padding: 0; /* Elimina padding */
+}
+
+nav ul li {
+    display: inline; /* Muestra elementos en línea */
+    margin: 0 15px; /* Espacio entre enlaces */
+}
+
+nav a {
+    color: #ffffff; /* Color de enlace blanco */
+    text-decoration: none; /* Elimina subrayado */
+}
+
+/* Banner */
+#portada {
+    text-align: center; /* Alineación central */
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+/* Secciones */
+section {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para secciones */
+    padding: 20px; /* Relleno */
+    margin: 20px; /* Espacio alrededor de cada sección */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Imágenes */
+img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Hace que la imagen ocupe su propio espacio */
+    margin: 10px auto; /* Centra la imagen y añade espacio */
+}
+
+/* Texto de imagen */
+.texto-imagen {
+    text-align: center; /* Alineación central */
+    font-weight: bold; /* Negrita */
+    margin-top: 5px; /* Espacio superior */
+}
+
+/* Formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    padding: 20px; /* Relleno */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+form label {
+    display: block; /* Cada etiqueta en su propia línea */
+    margin-top: 10px; /* Espacio superior */
+}
+
+form input, form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Relleno */
+    margin-top: 5px; /* Espacio superior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Botón */
+button {
+    background-color: #444; /* Fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+button:hover {
+    background-color: #666; /* Color al pasar el cursor */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Alineación central */
+    padding: 20px; /* Relleno */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+}
